@@ -1,19 +1,271 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-    <link href="styles.scss" rel="stylesheet">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+
+    <link href="styles.css" rel="stylesheet" type="text/css" />
 
     <title>Eric Miller - Web Developer</title>
   </head>
   <body>
-    <h1>Eric Miller</h1>
+    <div class="container-fluid">
+      <nav class="navbar fixed-top navbar-expand-lg navbar-custom navbar-text">
+        <div class="container-fluid justify-content-center">
+          <div id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item mx-3">
+                <a
+                  class="nav-link active navbar-text"
+                  aria-current="page"
+                  href="#projects"
+                  >Projects</a
+                >
+              </li>
+              <li class="nav-item mx-3">
+                <a
+                  class="nav-link navbar-text"
+                  href="./assets/EricMillerResume .pdf"
+                  >Resume</a
+                >
+              </li>
+              <li class="nav-item mx-3">
+                <a
+                  class="nav-link navbar-text"
+                  href="https://github.com/ericmailr"
+                  >GitHub</a
+                >
+              </li>
+              <li class="nav-item mx-3">
+                <a class="nav-link navbar-text" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div class="container d-flex justify-content-center mb-5 mt-3">
+      <h1>ERIC MILLER</h1>
+    </div>
+    <div class="container-fluid d-flex flex-column align-items-center my-5">
+      <div
+        class="d-flex flex-column align-items-center skills-container middle-container"
+      >
+        <h3 class="section-heading">
+          <i class="bi bi-chevron-compact-right"></i>
+          What I Can Do
+        </h3>
+        <ul class="skills fa-ul">
+          <li class="mt-2">
+            <span class="fa-li"><i class="bi bi-caret-right-fill"></i></span>
+            Deploy websites built with
+            <strong>Model-View-Controller Programming</strong> using the
+            <strong>Ruby on Rails Framework</strong>
+          </li>
+          <li class="mt-2">
+            <span class="fa-li"><i class="bi bi-caret-right-fill"></i></span>
+            Design interactive UIs with efficient, encapsulated components using
+            the <strong>React Javascript</strong> library
+          </li>
+          <li class="mt-2">
+            <span class="fa-li"><i class="bi bi-caret-right-fill"></i></span>
+            Use web development languages and tools like
+            <strong>HTML, CSS, Bootstrap,</strong> and
+            <strong>Webpack</strong>
+          </li>
+          <li class="mt-2">
+            <span class="fa-li"><i class="bi bi-caret-right-fill"></i></span>
+            Develop applications using
+            <strong>Object-Oriented Programming</strong> languages like
+            <strong>Ruby</strong> or <strong>Java</strong>
+          </li>
+          <li class="mt-2">
+            <span class="fa-li"><i class="bi bi-caret-right-fill"></i></span>
+            Practice <strong>Test/Behavior-Driven-Development</strong> by
+            designing test suites with <strong>RSpec</strong>
+          </li>
+          <li class="mt-2">
+            <span class="fa-li"><i class="bi bi-caret-right-fill"></i></span>
+            Manage projects and write code with tools like
+            <strong>Git Version Control, Linux, VSCode,</strong>
+            and <strong>Vim</strong>
+          </li>
+          <li class="mt-2">
+            <span class="fa-li"><i class="bi bi-caret-right-fill"></i></span>
+            Interpret data and crunch numbers using <strong>Matlab</strong>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div id="projects" class="container d-flex flex-column align-items-center">
+      <div
+        class="container d-flex flex-column align-items-center middle-container"
+      >
+        <h3 class="section-heading">
+          <i class="bi bi-chevron-compact-right"></i>
+          Projects
+        </h3>
+      </div>
+      <div
+        class="container d-flex flex-column align-items-center projects-container middle-container"
+      >
+        <div class="card mb-3">
+          <div class="row g-0">
+            <div class="col-md-4 w-75 d-flex align-items-center">
+              <a href="https://twitter-clone-ericmiller.herokuapp.com/">
+                <img
+                  src="./assets/twitter.png"
+                  alt="twitter webpage screenshot"
+                  class="img-fluid"
+                />
+              </a>
+            </div>
+            <div class="col-md-8 w-25">
+              <div class="card-body">
+                <h5 class="card-title">
+                  <a href="https://twitter-clone-ericmiller.herokuapp.com/"
+                    >Twitter Clone</a
+                  >
+                </h5>
+                <p class="card-text">
+                  <small class="text-muted"
+                    ><a href="https://github.com/ericmailr/twitter"
+                      ><i class="bi bi-github"></i> GitHub</a
+                    ></small
+                  >
+                </p>
+                <p class="card-text">Built with Ruby on Rails and React.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card my-4">
+          <div class="row g-0">
+            <div class="col-md-4 w-75 d-flex align-items-center">
+              <a href="https://ericmailr.github.io/todo-list/">
+                <img
+                  src="./assets/todo.png"
+                  alt="todo list webpage screenshot"
+                  class="img-fluid"
+                />
+              </a>
+            </div>
+            <div class="col-md-8 w-25">
+              <div class="card-body">
+                <h5 class="card-title">
+                  <a href="https://ericmailr.github.io/todo-list/">Todo List</a>
+                </h5>
+                <p class="card-text">
+                  <small class="text-muted"
+                    ><a href="https://github.com/ericmailr/todo-list"
+                      ><i class="bi bi-github"></i> GitHub</a
+                    ></small
+                  >
+                </p>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+                <p class="card-text">Built with pure vanilla Javascript.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="container my-4 d-flex justify-content-between middle-container projects-container"
+      >
+        <div class="card" style="width: 20rem; height: 25rem">
+          <img
+            src="./assets/weather.png"
+            class="card-img-top"
+            alt="weather app screenshot"
+            height="65%"
+          />
+          <div class="card-body" style="height: 35%">
+            <h5 class="card-title">
+              <a href="https://ericmailr.github.io/weather-app/">Weather App</a>
+            </h5>
+            <a href="https://github.com/ericmailr/weather-app"
+              ><i class="bi bi-github"></i> GitHub</a
+            >
+            <p class="card-text">
+              Javascript app that fetches data from a Weather API.
+            </p>
+          </div>
+        </div>
+        <div class="card" style="width: 20rem; height: 25rem">
+          <img
+            src="./assets/chess.png"
+            class="card-img-top"
+            alt="chess"
+            height="65%"
+          />
+          <div class="card-body" style="height: 35%">
+            <h5 class="card-title">
+              <a href="https://github.com/ericmailr/ruby_final_project">
+                <i class="bi bi-github"></i> Command Line Chess</a
+              >
+            </h5>
+            <p class="card-text">Written in Ruby. Tested with RSpec!</p>
+          </div>
+        </div>
+        <div class="card" style="width: 20rem; height: 25rem">
+          <img
+            src="./assets/Minewalker.png"
+            class="card-img-top"
+            alt="Minewalker screenshot"
+            height="65%"
+          />
+          <div class="card-body" style="height: 35%">
+            <h5 class="card-title">
+              <a href="https://github.com/ericmailr/Minewalker"
+                ><i class="bi bi-github"></i> Minewalker</a
+              >
+            </h5>
+            <p class="card-text">Minesweeper variation written in Java!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      id="contact"
+      class="container-fluid d-flex flex-column align-items-center mt-5 py-5"
+    >
+      <div
+        class="container d-flex flex-column align-items-center middle-container"
+      >
+        <h3 class="section-heading">Contact</h3>
+        <div class="container row">
+          <div class="col d-flex justify-content-center">
+            <i class="bi bi-envelope-fill px-1"></i> ericmailr@gmail.com
+          </div>
+          <div class="col d-flex justify-content-center">
+            <i class="bi bi-telephone-fill px-2"></i> (208)409-6412
+          </div>
+          <div class="col d-flex justify-content-center">
+            <a href="https://github.com/ericmailr"
+              ><i class="bi bi-github px-1"></i> GitHub</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
