@@ -8280,7 +8280,8 @@ body {
   background: linear-gradient(-180deg, #bcc1ce 0%, #929ead 98%), radial-gradient(at bottom left, rgba(255, 255, 255, 0.1) 0%, rgba(0, 0, 0, 0.3) 100%);
   background-blend-mode: screen;
   min-height: 100%;
-  overflow: auto; }
+  overflow: auto;
+  font-family: "Maitree", serif; }
 
 .text-muted a {
   text-decoration: none;
@@ -8297,12 +8298,15 @@ a:hover {
   list-style-type: none;
   font-size: 1.2rem;
   white-space: nowrap;
-  border: 1px solid #fbfbfb;
   border-radius: 5px;
-  padding: 5px; }
+  box-shadow: 1px 1px 1px gray;
+  padding: 20px;
+  background-color: #929ead;
+  background-color: rgba(146, 158, 173, 0.3); }
 
 strong {
-  color: #fbfbfb; }
+  color: #fbfbfb;
+  font-weight: normal; }
 
 .section-heading {
   margin-bottom: 30px; }
@@ -8346,7 +8350,7 @@ h1, .h1 {
 #contact .middle-container {
   width: 70vw; }
 
-@media screen and (min-width: 800px) {
+@media (min-width: 1500px) {
   .skills {
     font-size: 1rem; } }
 
